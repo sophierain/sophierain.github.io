@@ -1,0 +1,18 @@
+();;
+[];;
+mltype Example = Andromeda | MilkyWay;;
+Andromeda :: MilkyWay :: Andromeda :: [];;
+
+let andr_lst = 
+    let x = Andromeda in
+    [x; x; x; x];;
+
+let addmilky lst = 
+    (MilkyWay :: lst)
+
+let added_list = addmilky andr_lst;;
+
+match added_list with
+| [] -> ML.None
+| first :: rest -> ML.Some first
+end;;

@@ -1,0 +1,13 @@
+@InProceedings{BruggerKovacsPetkovicRainRawson:checkmate,
+author = {Brugger, Lea
+and Kovacs, Laura
+and Petkovi{\'{c}}, Anja
+and Rain, Sophie
+and Rawson, Michael},
+editor={Zaynah Dargaye
+and Clara Schneidewind},
+title = {Automating Security Analysis of Off-Chain Protocols},
+booktitle = {FMBC Program Papers},
+year = {2022}
+}
+

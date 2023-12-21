@@ -1,0 +1,6 @@
+@phdthesis{PetkovicKomelMetaTT,
+    title    = {Meta-analysis of type theories with an application to the design of formal proofs},
+    school   = {University of Ljubljana},
+    author   = {Petković Komel, Anja},
+    year     = {2021},
+}

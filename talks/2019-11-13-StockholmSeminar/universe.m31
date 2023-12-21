@@ -1,0 +1,29 @@
+rule U type ;;
+rule El (_ : U) type ;;
+
+rule Nat type ;;
+rule nat : U ;;
+rule El_nat : El nat ≡ Nat ;;
+
+rule Π (A type) ({x : A} B type) type ;;
+rule pi (a : U) ({x : El a} b : U) : U ;;
+rule El_pi (a : U) ({x : El a} b : U) : El (pi a b) ≡ Π (El a) ({x : El a} El (b{x})) ;;
+
+let Arrow = derive (A type) (B type) -> Π A ({_ : A} B) ;;
+let arrow = derive (a : U) (b : U) -> pi a ({_ : El a} b) ;;
+let El_arrow =
+  derive (a : U) (b : U) -> 
+    (El_pi a ({x : El a} b) )
+    ;;
+
+let demo = El_arrow nat nat ;;
+
+rule Arr (A type) (B type) type ;;
+rule arr (a : U) (b : U) : U ;;
+
+rule Arr_def (A type) (B type) : Arr A B ≡ Π A ({_:A} B) ;;
+rule arr_def (a : U) (b : U) : arr a b ≡ pi a ({_ : El a} b) : U ;;
+
+(* let Ell_arr =
+   derive (a : U) (b : U) ->
+     () : El (arr a b) ≡ Arr (El a) (El b) *)
