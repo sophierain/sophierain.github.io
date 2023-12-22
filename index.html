@@ -38,7 +38,7 @@
     <nav>
       <a href="#aboutMe">About Me</a>
       <a href="#research">Research</a>
-      <a href="#publications">Publications and Awards</a>
+      <a href="#publications">Academia</a>
       <a href="#teaching">Teaching</a>
       <a href="#checkmate">CheckMate</a>
       <a href="#abenteuerinformatik">Abenteuer Informatik</a>
@@ -57,8 +57,16 @@
             <p class="main">
             As a mathematician by training, my studies taught me to be precise and use an unambiguous and gap free notation in proofs. 
             My computer science PhD on the other hand showed me that developing an interesting theoretic concept is nice but it is even more fun to automate it in a second step. 
+            </p> 
+            <p class="main">
             Thus, I enjoy working in Formal Methods combining both the mathematical and the computer science aspects of logic and reasoning. 
+            </p> 
+            <p class="main">
             My main research interests are Logic, Security of Blockchain Applications, Game Theory and Automated Reasoning.
+          </p>
+          <p class="main">
+            If you are a student at TU Wien interested in semester projects, Bachelor or Master theses, please feel free to reach out! 
+            The same holds for anyone who is curious about my work. I am happy to have a chat with you! 
           </p>
           </article>
         </div>
@@ -68,9 +76,26 @@
         <h1 class="big">Research</h1>
         <div class="main column">
           <p class="main">
-            In my PhD I work on the game-theoretic security of Blockchain protocols. That means, I am developing a framework to mathematically prove the game-theoretic aspects of protocols secure.
-            When studying the security of Blockchain protocols, often only cryptographic properties are considered. An example for such a cryptographic property is whether an adversary can intercept messages.
-            A game-theoretic one would be whether possible deviations from protocols pay off economically.
+            In my PhD I work on the <span class="keyword"> game-theoretic security of Blockchain protocols </span>.
+             That means, I am developing a framework to mathematically prove the game-theoretic aspects of protocols secure.
+            When studying the security of Blockchain protocols, often only cryptographic properties are considered, 
+            while the game-theoretic ones are overlooked. 
+            In the high-level example of online banking a cryptographic security property would be that a password cannot be 
+            accessed by unauthorized users. A game-theoretic one on the other hand is that no one wants to share their password with others.
+          </p>
+          <p class="main">
+            The security properties we are interested in are <span class="keyword"> incentive-compatibility 
+            </span> and <span class="keyword"> Byzantine-fault-tolerance </span>. Together they ensure that no party, irrespective of their goals, 
+            has a reason to deviate from the protocol.
+          </p>
+          <p class="main">
+            As the mentioned security properties are defined based on game theory, our framework requires the analyzed protocol to be 
+            modeled as a game in a first step. In a collaboration with the <a href="https://ethereum.foundation/">Ethereum Foundation</a>
+            we are currently working on automating this process for protocols specified entirely as Smart Contracts.
+          </p>
+          <p class="main">
+            We further developed <span class="keyword"> CheckMate </span>, our open source tool to automatically verify the game-theoretic security
+            of protocols modeled as games. More details on this in the CheckMate section.
           </p>
         </div>
 
@@ -317,7 +342,7 @@
         </div>
         -->
       </section>
-      <section class="light" id="checkmate">
+      <section class="dark" id="checkmate">
         <h1>CheckMate</h1>
         <!--
         <div class="main">
@@ -335,7 +360,7 @@
         </div>
       -->
       </section>
-      <section class="dark" id="abenteuerinformatik">
+      <section class="light" id="abenteuerinformatik">
         <h1>Abenteuer Informatik</h1>
         <!--
         <div class="main">
