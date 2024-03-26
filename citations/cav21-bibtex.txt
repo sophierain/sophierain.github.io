@@ -1,0 +1,17 @@
+@InProceedings{10.1007/978-3-030-81685-8_15,
+author="Elad, Neta
+and Rain, Sophie
+and Immerman, Neil
+and Kov{\'a}cs, Laura
+and Sagiv, Mooly",
+editor="Silva, Alexandra
+and Leino, K. Rustan M.",
+title="Summing up Smart Transitions",
+booktitle="Computer Aided Verification",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="317--340",
+abstract="Some of the most significant high-level properties of currencies are the sums of certain account balances. Properties of such sums can ensure the integrity of currencies and transactions. For example, the sum of balances should not be changed by a transfer operation. Currencies manipulated by code present a verification challenge to mathematically prove their integrity by reasoning about computer programs that operate over them, e.g., in Solidity. The ability to reason about sums is essential: even the simplest ERC-20 token standard of the Ethereum community provides a way to access the total supply of balances.",
+isbn="978-3-030-81685-8"
+}

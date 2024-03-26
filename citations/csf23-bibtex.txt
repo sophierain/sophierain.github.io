@@ -1,0 +1,17 @@
+@INPROCEEDINGS {10221879,
+author = {S. Rain and G. Avarikioti and L. Kovacs and M. Maffei},
+booktitle = {2023 IEEE 36th Computer Security Foundations Symposium (CSF)},
+title = {Towards a Game-Theoretic Security Analysis of Off-Chain Protocols},
+year = {2023},
+volume = {},
+issn = {},
+pages = {107-122},
+abstract = {Off-chain protocols constitute one of the most promising approaches to solve the inherent scalability issue of blockchain technologies. The core idea is to let parties transact on-chain only once to establish a channel between them, leveraging later on the resulting channel paths to perform arbitrarily many peer-to-peer transactions off-chain. While significant progress has been made in terms of proof techniques for off-chain protocols, existing approaches do not capture the game-theoretic incentives at the core of their design, which led to overlooking significant attack vectors like the Wormhole attack in the past. In this work we take a first step towards a principled game-theoretic security analysis of off-chain protocols by introducing the first game-theoretic model that is expressive enough to reason about their security. We advocate the use of Extensive Form Games (EFGs) and introduce two instances of EFGs to capture security properties of the closing and the routing of the Lightning Network. Specifically, we model the closing protocol, which relies on punishment mechanisms to disincentivize parties to upload old channel states on-chain. Moreover, we model the routing protocol, thereby formally characterizing the Wormhole attack, a vulnerability that undermines the fee-based incentive mechanism underlying the Lightning Network.},
+keywords = {protocols;scalability;lightning;games;manuals;routing;routing protocols},
+doi = {10.1109/CSF57540.2023.00003},
+url = {https://doi.ieeecomputersociety.org/10.1109/CSF57540.2023.00003},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {jul}
+}
+

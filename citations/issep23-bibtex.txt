@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-031-44900-0_11,
+author="Landman, Martina
+and Rain, Sophie
+and Kov{\'a}cs, Laura
+and Futschek, Gerald",
+editor="Pellet, Jean-Philippe
+and Parriaux, Gabriel",
+title="Reshaping Unplugged Computer Science Workshops for Primary School Education",
+booktitle="Informatics in Schools. Beyond Bits and Bytes: Nurturing Informatics Intelligence in Education",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="139--151",
+abstract="Through meticulous analysis and adaptation, we reshaped unplugged computer science activities to align with the developmental needs and capabilities of primary school children. Our approach focuses on distilling the essence of computer science topics while tailoring their content and delivery methods to suit the younger audience. We describe our efforts and report on our experiences implementing our framework for eight primary school classes, turning our unplugged computer science workshops for secondary school classes into an educational playground for 192 primary school children. Our work contributes to the general societal mission of supporting more and more children to become interested in STEM, ensuring that our technological future is as diverse as possible.",
+isbn="978-3-031-44900-0"
+}

@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3576915.3623183,
+author = {Brugger, Lea Salome and Kov\'{a}cs, Laura and Petkovic Komel, Anja and Rain, Sophie and Rawson, Michael},
+title = {CheckMate: Automated Game-Theoretic Security Reasoning},
+year = {2023},
+isbn = {9798400700507},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3576915.3623183},
+doi = {10.1145/3576915.3623183},
+abstract = {We present the CheckMate framework for full automation of game-theoretic security analysis, with particular focus on blockchain technologies. CheckMate analyzes protocols modeled as games for their game-theoretic security - that is, for incentive compatibility and Byzantine fault-tolerance. The framework either proves the protocols secure by providing defense strategies or yields all possible attack vectors. For protocols that are not secure, CheckMate can also provide weakest preconditions under which the protocol becomes secure, if they exist. CheckMate implements a sound and complete encoding of game-theoretic security in first-order linear real arithmetic, thereby reducing security analysis to satisfiability solving. CheckMate further automates efficient handling of case splitting on arithmetic terms. Experiments show CheckMate scales, analyzing games with trillions of strategies that model phases of Bitcoin's Lightning Network.},
+booktitle = {Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1407–1421},
+numpages = {15},
+keywords = {automated reasoning, decentralized protocols, game theory, secure protocols, security analysis},
+location = {<conf-loc>, <city>Copenhagen</city>, <country>Denmark</country>, </conf-loc>},
+series = {CCS '23}
+}
