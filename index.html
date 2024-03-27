@@ -93,63 +93,11 @@
             we are currently working on automating this process for protocols specified entirely as Smart Contracts.
           </p>
           <p class="main">
-            We further developed <span class="keyword"> CheckMate </span>, our open source tool to automatically verify the game-theoretic security
-            of protocols modeled as games. More details on this in the CheckMate section.
+            We further developed <span class="keyword">CheckMate</span>, our open source tool to automatically verify the game-theoretic security
+            of protocols modeled as games. More details on this can be found in the CheckMate section.
           </p>
         </div>
-
-
-            <!-- I was a PhD student of
-            <a href="http://andrej.com">Andrej Bauer</a>
-            at
-            <a href="https://www.fmf.uni-lj.si/">Faculty of mathematics and physics,
-              University of Ljubljana</a>.
-            In my thesis, I analyze the meta-theory of type theory and
-            its applications to proof assistants. I focus on two aspects: interactions of type theories via transformations and a general user-extensible equality checking algorithm.
-          </p>
-          <article>
-            <div class="content">
-              <p class="main">
-                One way of studying compatibility of type theories is by looking at their <span class="keyword">transformations</span>. To accommodate for the use in proof assistants, the transformations we consider are syntactic in nature, they preserve derivability and are general enough to be applicable to a large class of type theories. The transformations preserve some syntactic structure (like judgement kinds and syntactic classes) and they interact nicely with substitutions of variables and instantiations of metavariables: with the action on expressions they form a relative monad for syntax.
-              </p>
-            </div>
-          </article>
-          <article>
-            <div class="content">
-              <p class="main">
-                A major use case for our definition of type-theoretic transformation is an <span class="keyword">elaboration</span>. When designing a type theory, especially for using it in a proof assistant, one often faces a dilemma of how verbose the syntax should be. Terms annotated with full typing information are easily amenable to algorithmic processing and have good meta-theoretic properties. However, the syntax can quickly become too verbose to handle, so more economic terms that omit typing information are much more usable in practice. One can also omit other evidence, like proof of termination for recursive functions, or explicit universe levels.
-
-                One common solution to this problem is to design two type theories: a fully annotated type theory S (the elaboration) that resides in the kernel of the proof assistant and an economic one T for the users input. The theories are connected via two maps: the retrogression transformation (r) that forgets the additional information, and the elaboration map (l) which uses a derivation to construct the missing data. We then prove two theorems: that elaboration is universal and that every finitary type theory has an elaboration. We also investigate some algorithmic properties of elaboration.
-              </p>
-            </div>
-            <img src="img/diagramElaboration.png" height="200" alt="Elaboration">
-          </article>
-          <article>
-            <div>
-            <img src="img/diagramEqchk1.png" alt="Equality checking"> <br/>
-            <img src="img/diagramEqchk2.png" alt="Equality checking">
-          </div>
-            <div class="content">
-              <p class="main">
-                Proof assistants based on type theories have <span class="keyword">equality checking algorithms</span> as their essential components. The algorithms free the users from proving mostly trivial judgemental equalities, and povide computation-by-normalization engines. Some systems, like Agda and Dedukti, allow the users to extend the built-in equality checkers. However, in a proof assistant that supports arbitrary user-definable type theories, like <a href="https://www.andromeda-prover.org/">Andromeda 2</a>, an equality checking algorithm highly depends on the given rules or may not even be available. Still, the proof assistant should provide support for equality checking that is easy to use and works well in the common, well-behaved cases. For this purpose we have developed a <span class="keyword">sound and extensible equality checking algorithm</span> for user-definable type theories. We implemented it in the <a href="https://www.andromeda-prover.org/">Andromeda 2</a> proof assistant.
-              </p>
-              <div class="paper">
-                <h4>
-                  <a href="https://arxiv.org/abs/2103.07397">
-                    An extensible equality checking algorithm for dependent type theories
-                  </a>
-                </h4>
-                <p>with Andrej Bauer</p>
-                <p class="journal">Logical methods in computer science</p>
-                <div class="files">
-                  <a href="https://arxiv.org/pdf/2103.07397.pdf">PDF</a>
-                  <a href="citations/eqchk-bibtex.txt">Bibtex</a>
-                  <a href="https://github.com/Andromedans/andromeda">Implementation</a>
-                </div>
-              </div>
-            </div>
-          </article> 
-        -->
+  
 
       </section>
       <section class="dark" id="academia">
@@ -240,7 +188,8 @@
           <article>
             <p class="main">
               <ul style="font-size: x-large;">
-                <li>July 2023: <a href="https://tuw.media/artikel/sophie-rain.html">TU Wien 30 under 30 Listmaker</a>
+                <li style="margin-bottom: 10px;"
+                  >July 2023: <a href="https://tuw.media/artikel/sophie-rain.html">TU Wien 30 under 30 Listmaker</a>
                 </li>
                 <li> November 2022: <a href="https://www.netidee.at/personen/sophierain">Awardee of a Netidee Stipend</a>
                 </li>
@@ -262,8 +211,8 @@
 
         <div class="main">
           <article>
-            I was involved in the following teaching activities at <a href="https://www.tuwien.at/en/"> TU Wien </a>:
             <p class="main">
+              I was involved in the following teaching activities at <a href="https://www.tuwien.at/en/">TU Wien</a>:
               <ul style="font-size: x-large;">
                 <li>Summer and Winter Term 2023: Advising <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=5648&dsrid=855&courseNr=192021&semester=2023W">Projects in Computer Science</a> of Ivana Bocevska (who received the Siemens Award for Excellence)
                 </li>
@@ -279,38 +228,6 @@
             </p>
           </article>
         </div>
-
-        <!--
-        <div class="main">
-          <article>
-            <p class="main">
-              <ul style="font-size: x-large;">
-                <li>July 2023: TU Wien 30 under 30 Listmaker PhD from <a href="https://www.fmf.uni-lj.si/">Faculty of mathematics and physics,
-                    University of Ljubljana</a>. <br/>
-                    Thesis title: <span class="keyword"> Meta-analysis of type theories with an application to the design of formal proofs</span><br/>
-                    Thesis adviser: <a href="http://andrej.com">Andrej Bauer</a>
-                    <div class="files">
-                      <a href="img/doctoralThesis.pdf">PDF</a>
-                      <a href="citations/phdthesisbibtex.txt">Bibtex</a>
-                    </div>
-                </li>
-                <li> 2015 - 2017: Master of Mathematics from <a href="https://www.fmf.uni-lj.si/">Faculty of mathematics and physics, University of Ljubljana</a>, graduated with honors. <br/>
-                Thesis title: <span class="keyword">Computing fixed points of monotone piecewise linear functions</span> <br/>
-                Thesis adviser: <a href="https://www.fmf.uni-lj.si/si/imenik/32646/">Alex Simpson</a>
-                <div class="files">
-                    <a href="img/magisterij.pdf">PDF</a>
-                    <a href="https://bitbucket.org/AnjaPetkovic/evaulating-mu-terms">Code</a>
-                </div>
-                </li>
-                <li>2012 - 2015: Bachelor of mathematics from <a href="https://www.fmf.uni-lj.si/">Faculty of mathematics and physics, University of Ljubljana</a>, graduated with honors. <br/>
-                Thesis title: <span class="keyword">Compactly dominated spaces are homotopy equivalent to compact spaces</span> <br/>
-                Thesis adviser: <a href="https://www.fmf.uni-lj.si/~smrekar/">Jaka Smrekar</a>
-                </li>
-              </ul>
-            </p>
-          </article>
-        </div>
-        -->
 
 
         <h2 class="big">Academic CV</h2>
@@ -332,116 +249,19 @@
       <section class="dark" id="abenteuerinformatik">
         <h1>Abenteuer Informatik</h1>
         <div class="main column">
-          <p class="main">Together with some colleagues form Forsyte and TU Wien's computer science didactics group <a href="https://edulab.ifs.tuwien.ac.at/">eduLAB</a>, we developed 
+          <p class="main">Together with colleagues from TU Wien's computer science didactics group <a href="https://edulab.ifs.tuwien.ac.at/">eduLAB</a>, we developed 
             computer science workshops for Austrian primary schools called Abenteuer Informatik für Volksschule. All information including the possibility to book a spot can be found 
             <a href="https://edulab.ifs.tuwien.ac.at/programme/volksschule-algorithmen/">here</a>. EduLAB offers all kinds of cool computer science content for everybody and provides
-             a great overview on their homepage.</p>
+             a great overview on their <a href="https://edulab.ifs.tuwien.ac.at/">homepage</a>.</p>
           </div>
-        <!--
-        <div class="main">
-          During the four years of my PhD I had the chance to teach the students of mathematics and physics at University of Ljubljana. Besides the courses listed below I conducted a workshop on advanced uses of Mathematica. Prior to that I was a tutor and demonstrator for mathematics and analysis courses at Faculty for mathematics and physics, University of Ljubljana.
-          <article>
-              <h2>Logic and sets (Faculty of Mathematics and Physics, University of Ljubljana)</h2>
-              <p>
-              I was a TA for first year undergraduate mathematics students taking a course on foundations of mathematics: first-order logic and set theory.
-              <ul>
-                <li>In autumn 2020, I was a TA for one group and I marked students' exams.</li>
-                <li>In autumn 2019, I was a TA for one group and I marked students' exams.</li>
-                <li>In autumn 2018, I was a TA for one group and I marked students' exams.</li>
-                <li>In autumn 2017, I was a TA for one group and I marked students' exams.</li>
-              </ul>
-            </p>
-          </article>
-          <article>
-              <h2>Introduction to programming (Faculty of Mathematics and Physics, University of Ljubljana)</h2>
-              <p>
-              I was a TA for first year undergraduate mathematics and financial mathematics students, givng them an introducotry course on programming in python.
-              <ul>
-                <li>In spring 2021, I was a TA for one group and I marked students' exams.</li>
-                <li>In spring 2020, I was a TA for one group and I marked students' projects.</li>
-                <li>In spring 2019, I was a TA for one group and I marked students' exams.</li>
-              </ul>
-            </p>
-          </article>
-          <article>
-            <h2>Teaching mathematics and physics in English (Faculty of Mathematics and Physics, University of Ljubljana)</h2>
-            <p>
-            I was a TA for master students in pedagogical mathematics and pedagogical physics. We discussed different approaches to teaching mathematics in English and covered vocabulary for various highschool level topics.
-            <ul>
-              <li>In spring 2021, I was a TA for the course I marked students' coursework.</li>
-            </ul>
-          </p>
-        </article>
-        </div>
-      -->
+
       </section>
       <section class="light" id="blog">
         <h1>Blog</h1>
-        <!--
-        <div class="main">
-          <article>
-            <h2>Software</h2>
-            <p>
-              <a href="https://github.com/apre-group/checkmate">CheckMate</a> is a framework designed to automatically check security properties of games that arise from off-chain (blockchain) protocols. The framework yields a strategy (if it exists) for the following properties: weak immunity, collusion resilience and practicality.
-            </p>
-            <p>
-              <a href="https://www.andromeda-prover.org/">Andromeda</a> is an implementation of (standard) finitary type theories, allowing the user to define their own type theory. It is based on an ML style meta-language that supports proof development via runners and bidirectional evaluation. It implements a user-extensible equality checkig algorithm.
-            </p>
-          </article>
-          <article>
-            <h2>Community service</h2>
-              <ul>
-                <li>Cost action: CA20111 <a href="https://www.cost.eu/actions/CA20111/" />European Research Network on Formal Proofs</a>, management committee, gender balance coordinator. </li>
-                <li><a href="https://popl23.sigplan.org/home/CPP-2023" />CPP 2023</a>, programme committee.</li>
-                <li><a href="https://icfp22.sigplan.org/" />ICFP 2022</a>, organizing committee, virtualization chair.</li>
-                <li><a href="https://hott-uf.github.io/2022/" />HoTT/UF 2022</a>, organizing committee.</li>
-                <li><a href="https://europroofnet.github.io/women-epn-2022/" />Women in EuroProofNet 2022</a>, organizing committee.</li>
-                <li><a href="https://conferences.matheo.si/event/30/">Women in Mathematics on Mediterranean Shores</a>, Bled, Slovenia, September 2019, organizing committee.</li>
-              </ul>
-          </article>
-          <article>
-            <h2>Outreach to society and media</h2>
-            <p>
-              I believe the mission of scientists is not only discovering new science, but also communicating science and science-related issues to others, from fellow scientists to the general public. In October 2022 I gave a talk about gender balance in computer science for students at ENS Paris-Scalay (<a href="talks/2022-10-18-Paris-Seminar/2022-Oct-Paris-gender-gap-CS.pdf">slides</a>). In June 2022 I participated at a round table about the profession of a scientist, organized by Slovenian national radio station Val 202 (<a
-              href="https://val202.rtvslo.si/podkast/frekvenca-x/31057643/174877423">audio</a>). From September 2019 to January 2022 I posed <a href="uganke.html">mathematical riddles</a> at the science show <a href="https://4d.rtvslo.si/oddaja/ugriznimo_znanost/65345770">Ugriznimo znanost</a> on Slovenian national television RTVSLO.
-              In March 2020 I gave an interview for Metina Lista science podcasts (<a
-              href="https://metinalista.si/meta-phodcast-110-anja-petkovic-matematicarka/">audio</a>) and in November 2019 an interview at the occasion of 100. anniversary of University of Ljubljana on Slovenian national radio station Val 202 (<a href="https://val202.rtvslo.si/2019/10/frekvenca-x-170/">audio</a>). In December 2018 I co-organised a round table called Women in Science and Technology (<a href="http://videolectures.net/single_okrogla_miza_zenske_v_znanosti/">video.</a>) with the collegues from Jožef Stefan Institute.
-            </p>
-          </article>
-        </div>
-      -->
+
+        As part of my NetIdee stipend, I regularly write <a href="https://www.netidee.at/automated-verification-game-theoretic-security-properties-decentralized-protocols">blog articles</a> about my research for a broad audience. 
+
       </section>
-      <!-- <section class="dark" id="participation">
-        <h1>Conference and Worksop participation</h1>
-        <div class="main">
-          <article>
-          <ul style="font-size: medium; align-items: baseline;">
-            <li>July 2021: HoTT/UF 2021, Online</li>
-            <li>June 2021: TYPES 2021, Online</li>
-            <li>April 2021: EPIT spring school, Online</li>
-            <li>July 2020: ICMS 2020, Online</li>
-            <li>June 2020: HoTTEST conference 2020, Online</li>
-            <li>December 2019: Workshop on Foundations and Applications of Univalent Mathematics, Herrsching, Germany</li>
-            <li>September 2019: Women in Mathematics on Mediterranean Shores, Bled, Slovenia</li>
-            <li>August 2019: Homotopy Type Theory 2019 Summer school and conference, Pittsburgh, Pennsylvania, USA</li>
-            <li>June 2019: TYPES 2019, Oslo, Norway</li>
-            <li>April 2019: UniMath spring school, Birmingham, UK</li>
-            <li>January 2019: POPL 2019, Cascais, Portugal</li>
-            <li>October 2018: EUTypes2018 meeting, Aarhus, Denmark</li>
-            <li>September 2018: Autumn school "Proof and Computation", Fischbachau, Germany</li>
-            <li>August 2018: Dagstuhl seminar "Formalization of Mathematics in Type Theory", Dagstuhl, Germany</li>
-            <li>July 2018: EuroScience Open Forum 2018, Toulouse, France</li>
-            <li>June 2018: Toposes in Como, summer school, Como, Italy</li>
-            <li>May 2018: Types, Sets and Constructions - Workshop: Types, Homotopy Type theory, and Verification, Bonn,
-              Germany</li>
-            <li>May 2018: Non-commutative structures 2018, Pororož, Slovenia</li>
-            <li>December 2017: UniMath winter school, Birmingham, UK </li>
-            <li>July 2017: EUTypes summer school, Ohrid, Macedonia</li>
-            <li>June 2017: MFPS & CALCO 2017, Ljubljana, Slovenia</li>
-          </ul>
-        </article>
-        </div>
-      </section> -->
     </main>
   </body>
 
