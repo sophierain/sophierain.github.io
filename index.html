@@ -18,10 +18,10 @@
           <p> <span class="name">Sophie Rain</span> <br/></p>
           <p>
             <a href="https://www.argot.org/">Argot Collective</a> <br />
-          <br />
             <a href='mailto:sophie.rain@argot.org'>
                 sophie.rain@argot.org
             </a> <br />
+            <br />
             <a href="https://github.com/sophierain/"><img style="vertical-align:middle" src="img/github-icon.png" width="30" alt="GitHub"><span>sophierain</span></a><br />
             <a href="https://www.linkedin.com/in/sophie-rain-978b56228/"><img style="vertical-align:middle" src="img/linkedin-icon.png" width="30" alt="LinkedIn">Sophie Rain</a><br />
             <a href="https://orcid.org/0000-0002-8940-4989"><img style="vertical-align:middle" src="img/orcid.logo.icon.svg" width="30" alt="orcid"><span>0000-0001-7203-6641</span></a><br />
@@ -49,7 +49,7 @@
         <div class="main">
           <article>
             <p class="main">
-            I am a computer science PhD student at TU Vienna's <a href="https://informatics.tuwien.ac.at/orgs/e192-04">FORSYTE</a> group under the supervision of <a href="http://lkovacs.com/">Laura Kovács</a>.
+            I am a formal verification researcher at the <a href="https://www.argot.org/">Argot Collective</a>.
             </p> 
             <p class="main">
             As a mathematician by training, my studies taught me to be precise and use an unambiguous and gap free notation in proofs. 
@@ -58,11 +58,11 @@
             </p> 
             <br>
             <p class="main">
-            My main research interests are Logic, Security of Blockchain Applications, Game Theory and Automated Reasoning.
+            My main research interests are Logic, Security of Blockchain Applications, Game Theory and Automated Reasoning. 
+            Recently, I have started looking into Types and Programming Languages.
           </p>
           <p class="main">
-            If you are a student at TU Wien interested in semester projects, Bachelor or Master theses, please feel free to reach out! 
-            The same holds for anyone who is curious about my work. I am happy to have a chat with you! 
+            If you are curious about my work please feel free to reach out! I am happy to have a chat with you! 
           </p>
           </article>
         </div>
@@ -72,27 +72,27 @@
         <h1 class="big">Research</h1>
         <div class="main column">
           <p class="main">
-            In my PhD I work on the <span class="keyword">game-theoretic security of Blockchain protocols </span>.
-             That means, I am developing a framework to mathematically prove the game-theoretic aspects of protocols secure.
+            In the course of my PhD studies, I worked on the <span class="keyword">game-theoretic security of Blockchain protocols</span>.
+             That means, I developed a framework to mathematically prove the game-theoretic aspects of protocols secure.
             When studying the security of Blockchain protocols, often only cryptographic properties are considered, 
             while the game-theoretic ones are overlooked. 
             In the high-level example of online banking a cryptographic security property would be that a password cannot be 
             accessed by unauthorized users. A game-theoretic one on the other hand is that no one wants to share their password with others.
           </p>
           <p class="main">
-            The security properties we are interested in are <span class="keyword"> incentive-compatibility 
-            </span> and <span class="keyword"> Byzantine-fault-tolerance </span>. Together they ensure that no party, irrespective of their goals, 
+            The security properties we are interested in are <span class="keyword"> incentive-compatibility</span> and <span class="keyword"> Byzantine-fault-tolerance</span>. Together they ensure that no party, irrespective of their goals, 
             has a reason to deviate from the protocol.
           </p>
           <p class="main">
-            As the mentioned security properties are defined based on game theory, our framework requires the analyzed protocol to be 
-            modeled as a game in a first step. In a collaboration with the <a href="https://ethereum.foundation/">Ethereum Foundation</a>
-            we are currently working on automating this process for protocols specified entirely as Smart Contracts.
-          </p>
-          <p class="main">
-            We further developed <span class="keyword">CheckMate</span>, our open source tool to automatically verify the game-theoretic security
+            We implemented the above framework as  <span class="keyword">CheckMate</span>, our open source tool to automatically verify the game-theoretic security
             of protocols modeled as games. More details on this can be found in the CheckMate section.
           </p>
+          <p class="main">
+            As the mentioned security properties are defined based on game theory, CheckMate requires the analyzed protocol to be 
+            modeled as a game in a first step. As part of my work with the Argot Collective 
+            we are currently working on automating this process for Ethereum Smart Contracts written in Solidity.
+          </p>
+
         </div>
   
 
@@ -104,6 +104,33 @@
         <div class="main">
           <article class="big">
 
+
+
+            <div class="paper">
+              <h4>
+                <a href="https://ifm2025.ens.psl.eu/accepted_papers/">
+                  Game Modeling of Blockchain Protocols
+                </a>
+              </h4>
+              <p>with Anja Petković Komel, Laura Kovács, and Michael Rawson</p>
+              <p class="conference">The 20th International Conference on Integrated Formal Methods (iFM 2025)</p>
+              <div class="files">
+                <a href="https://easychair.org/publications/preprint/zdhG">PDF</a>
+              </div>
+            </div>
+            <div class="paper">
+              <h4>
+                <a href="https://dl.acm.org/doi/10.1145/3763120">
+                  Divide and Conquer: a Compositional Approach to Game-Theoretic Security
+                </a>
+              </h4>
+              <p>with Ivana Bocevska, Laura Kovács,  Anja Petković Komel and Michael Rawson</p>
+              <p class="conference">ACM Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA 2025)</p>
+              <div class="files">
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3763120">PDF</a>
+                <a href="citations/OOPSLA25-bibtex.txt">Bibtex</a>
+              </div>
+            </div>
             <div class="paper">
               <h4>
                 <a href="https://easychair.org/publications/paper/6ZDH">
@@ -225,7 +252,9 @@
             <p class="main">
               I was involved in the following teaching activities at <a href="https://www.tuwien.at/en/">TU Wien</a>:
               <ul style="font-size: x-large;">
-                <li style="margin-bottom: 10px;">Summer and Winter Term 2023: Advising <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=5648&dsrid=855&courseNr=192021&semester=2023W">Projects in Computer Science</a> of Ivana Bocevska, who received the Siemens Award for Excellence
+                <li style="margin-bottom: 10px;">Summer and Winter Term 2024: Co-advising the <a href="https://repositum.tuwien.at/handle/20.500.12708/219345">Master Thesis</a> of Ivana Bocevska, who received the Siemens Award for Excellence
+                </li>
+                <li style="margin-bottom: 10px;">Summer and Winter Term 2023: Advising <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=5648&dsrid=855&courseNr=192021&semester=2023W">Projects in Computer Science</a> of Ivana Bocevska
                 </li>
                 <li style="margin-bottom: 10px;"> Summer Term 2022: Co-advising the <a href="https://repositum.tuwien.at/handle/20.500.12708/80368">Master Thesis</a> of Lea Brugger, who received the Young Distinguished Alumn Award and the City of Vienna Diploma Thesis Prize
                 </li>
@@ -253,7 +282,7 @@
         <div class="main column">
           <p class="main">CheckMate is our automated game-theoretic security reasoning tool. It takes an extensive form game model of a protocol as input and decides its game-theoretic security.
             Additionally, among other features, if a game model was not secure, CheckMate can provide counterexamples and weakest precondtitions, that if added as preconditions, make the game model secure. If the analyzed game model was secure, CheckMate can present a witness behavior. 
-            The tool is available <a href="https://github.com/apre-group/checkmate">here</a>. Be aware that CheckMate is constantly evolving, the latest stable version is tagged "lpar25".</p>
+            The tool is available <a href="https://github.com/apre-group/checkmate">here</a>. Be aware that CheckMate is constantly evolving, the latest stable version is tagged "oopsla25".</p>
           </div>
       </section>
 
@@ -271,7 +300,7 @@
         <h1>Blog</h1>
         <div class="main column">
           <p class="main">
-        As part of my NetIdee stipend, I regularly write <a href="https://www.netidee.at/automated-verification-game-theoretic-security-properties-decentralized-protocols">blog articles</a> about my research for a broad audience. 
+        As part of my NetIdee stipend, I regularly wrote <a href="https://www.netidee.at/automated-verification-game-theoretic-security-properties-decentralized-protocols">blog articles</a> about my research for a broad audience. 
       </p>
     </div>
       </section>

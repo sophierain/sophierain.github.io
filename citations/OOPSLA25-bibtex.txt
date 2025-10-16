@@ -1,0 +1,17 @@
+@article{checkmate-OOPSLA25,
+author = {Bocevska, Ivana and Petkovi\'{c} Komel, Anja and Kov\'{a}cs, Laura and Rain, Sophie and Rawson, Michael},
+title = {Divide and Conquer: A Compositional Approach to Game-Theoretic Security},
+year = {2025},
+issue_date = {October 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3763120},
+doi = {10.1145/3763120},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {342},
+numpages = {25},
+keywords = {Automated Reasoning, Game Theory, SMT Solving, Security}
+}
