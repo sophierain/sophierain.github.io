@@ -50,8 +50,6 @@
           <article>
             <p class="main">
             I am a formal verification researcher at the <a href="https://www.argot.org/">Argot Collective</a>.
-            </p> 
-            <p class="main">
             As a mathematician by training, my studies taught me to be precise and use an unambiguous and gap free notation in proofs. 
             My computer science PhD on the other hand showed me that developing an interesting theoretic concept is nice but it is even more fun to automate it in a second step. 
             Thus, I enjoy working in Formal Methods combining both the mathematical and the computer science aspects of logic and reasoning. 
@@ -70,6 +68,7 @@
 
       <section class="light" id="research">
         <h1 class="big">Research</h1>
+        <h3>PhD Thesis</h3>
         <div class="main column">
           <p class="main">
             In the course of my PhD studies, I worked on the <span class="keyword">game-theoretic security of Blockchain protocols</span>.
@@ -87,10 +86,17 @@
             We implemented the above framework as  <span class="keyword">CheckMate</span>, our open source tool to automatically verify the game-theoretic security
             of protocols modeled as games. More details on this can be found in the CheckMate section.
           </p>
+          <h3>Current Projects</h3>
           <p class="main">
-            As the mentioned security properties are defined based on game theory, CheckMate requires the analyzed protocol to be 
-            modeled as a game in a first step. As part of my work with the Argot Collective 
-            we are currently working on automating this process for Ethereum Smart Contracts written in Solidity.
+            I am currently contributing to a project called <a href="https://github.com/argotorg/act?tab=readme-ov-file">Act</a>. <span class="keyword"> Act</span> 
+            is a specification language for Ethereum Smart Contracts, which is agnostic of the used programming language. 
+          </p>
+          <p class="main">
+            Using <span class="keyword"> Act</span> as a backend, we aim to connect <span class="keyword"> CheckMate</span> and <span class="keyword"> Act</span> into one pipeline.
+            Currently, to verify a Smart Contract's incentive-compatibility (a.k.a game-theoretic security), the user has to semi-manually
+            model the contract as a game (see our paper on <a href="#gamemodeling"><span class="keyword">Game Modeling</span></a>).
+            Applying Act's capabilities, we plan to automatically generate a Smart Contract's game model from its Act specification, 
+            thereby making game-theoretic security accessible to the community.
           </p>
 
         </div>
@@ -106,7 +112,7 @@
 
 
 
-            <div class="paper">
+            <div class="paper" id="gamemodeling">
               <h4>
                 <a href="https://ifm2025.ens.psl.eu/accepted_papers/">
                   Game Modeling of Blockchain Protocols
@@ -227,6 +233,8 @@
           <article>
             <p class="main">
               <ul style="font-size: x-large;">
+                <li style="margin-bottom: 10px;">May 2024: Best Presentation Award at LPAR 2024
+                </li>
                 <li style="margin-bottom: 10px;">July 2023: <a href="https://tuw.media/artikel/sophie-rain.html">TU Wien 30 under 30 Listmaker</a>
                 </li>
                 <li style="margin-bottom: 10px;"> November 2022: <a href="https://www.netidee.at/personen/sophierain">Awardee of a Netidee Stipend</a>
