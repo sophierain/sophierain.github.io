@@ -68,12 +68,12 @@
 
       <section class="light" id="research">
         <h1 class="big">Research</h1>
-        <h3>PhD Thesis</h3>
+        <h2>PhD Thesis</h2>
         <div class="main column">
           <p class="main">
-            In the course of my PhD studies, I worked on the <span class="keyword">game-theoretic security of Blockchain protocols</span>.
+            In the course of my PhD studies, I worked on the <span class="keyword">game-theoretic security of blockchain protocols</span>.
              That means, I developed a framework to mathematically prove the game-theoretic aspects of protocols secure.
-            When studying the security of Blockchain protocols, often only cryptographic properties are considered, 
+            When studying the security of blockchain protocols, often only cryptographic properties are considered, 
             while the game-theoretic ones are overlooked. 
             In the high-level example of online banking a cryptographic security property would be that a password cannot be 
             accessed by unauthorized users. A game-theoretic one on the other hand is that no one wants to share their password with others.
@@ -86,14 +86,16 @@
             We implemented the above framework as  <span class="keyword">CheckMate</span>, our open source tool to automatically verify the game-theoretic security
             of protocols modeled as games. More details on this can be found in the CheckMate section.
           </p>
-          <h3>Current Projects</h3>
+        </div>
+        <div class="main column">
+          <h2>Current Projects</h2>
           <p class="main">
             I am currently contributing to a project called <a href="https://github.com/argotorg/act?tab=readme-ov-file">Act</a>. <span class="keyword"> Act</span> 
             is a specification language for Ethereum Smart Contracts, which is agnostic of the used programming language. 
           </p>
           <p class="main">
             Using <span class="keyword"> Act</span> as a backend, we aim to connect <span class="keyword"> CheckMate</span> and <span class="keyword"> Act</span> into one pipeline.
-            Currently, to verify a Smart Contract's incentive-compatibility (a.k.a game-theoretic security), the user has to semi-manually
+            Currently, to verify a Smart Contract's incentives (a.k.a. game-theoretic security), the user has to semi-manually
             model the contract as a game (see our paper on <a href="#gamemodeling"><span class="keyword">Game Modeling</span></a>).
             Applying Act's capabilities, we plan to automatically generate a Smart Contract's game model from its Act specification, 
             thereby making game-theoretic security accessible to the community.
